@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora del Amor</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <main class="card">
+    <header class="card__header">
+      <span class="badge">💘</span>
+      <h1>Calculadora del Amor</h1>
+      <p>Escribe los nombres y descubre la compatibilidad </p>
+    </header>
+
+    <form class="form" onsubmit="event.preventDefault(); calcultelove();">
+      <div class="field">
+        <label for="Nombre">Tu nombre</label>
+        <input type="text" id="Nombre" placeholder="Ej: Andrés" required />
+      </div>
+
+      <div class="field">
+        <label for="Nombre2">Nombre de tu pareja</label>
+        <input type="text" id="Nombre2" placeholder="Ej: Luisa" required />
+      </div>
+
+      <button type="submit" class="btn">Calcular amor 💗</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
