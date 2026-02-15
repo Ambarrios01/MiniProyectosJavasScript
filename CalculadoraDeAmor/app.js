@@ -11,10 +11,10 @@ function calcultelove() {
 
     document.getElementById("result").style.color = "green";
     document.getElementById("result").textContent =
-      `Tiene un ${lovePorcentage}% de compatibilidad 💖`;
+      `Tiene un ${lovePorcentage}% de compatibilidad`;
   } else {
     document.getElementById("result").style.color = "red";
     document.getElementById("result").textContent =
-      "Por favor, digite los nombres correctamente 💔";
+      "Por favor, digite los nombres correctamente ";
   }
 }
