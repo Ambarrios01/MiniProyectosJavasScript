@@ -1,32 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Generador de Color</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div id="colorDisplay" class="colorDisplay">
-
-            <div class="sliders">
-                <label>:R
-                    <input type="range" min="0" max="255" id="rRange">
-                </label>
-                <label>:G
-                    <input type="range" min="0" max="255" id="gRange">
-                </label>
-                <label>:B
-                    <input type="range" min="0" max="255" id="bRange">
-                </label>
-            </div>
-            <p id="rgValue">RGB(0,0,0)</p>
-            <button id="cpyButtton">Copiar</button>
+      <div id="colorDisplay" class="colorDisplay"></div>
+              <div class="sliders">
+          <label
+            >:R
+            <input type="range" min="0" max="255" id="rRange" />
+          </label>
+          <label
+            >:G
+            <input type="range" min="0" max="255" id="gRange" />
+          </label>
+          <label
+            >:B
+            <input type="range" min="0" max="255" id="bRange" />
+          </label>
         </div>
+
+        <p id="rgValue">RGB(0,0,0)</p>
+        <button id="cpyButtton">Copiar</button>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
